@@ -10,5 +10,6 @@ const employees = [
     hobbies: ["Cryptocurrency", "Social media"],
   },
 ];
+employees[0].hobbies.push("Watching basketball");
 
-// Start coding here
+console.log(employees[0]);
