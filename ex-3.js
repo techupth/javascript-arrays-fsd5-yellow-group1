@@ -11,4 +11,6 @@ const employees = [
   },
 ];
 
-// Start coding here
+employees[1].hobbies.pop = "Watching Basketball";
+
+console.log(employees[1]);
